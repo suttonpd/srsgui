@@ -1,0 +1,7 @@
+-I/home/kali/tools/srsGUI/include
+-I/usr/include
+-I/usr/include/qwt
+-DBOOST_FILESYSTEM_VERSION=2
+-o
+/home/kali/tools/srsGUI/build/src/realplot/moc_RealplotWrapper.cpp
+/home/kali/tools/srsGUI/src/realplot/RealplotWrapper.h

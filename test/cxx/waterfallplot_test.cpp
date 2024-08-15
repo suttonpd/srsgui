@@ -1,10 +1,12 @@
+#define BOOST_TIMER_ENABLE_DEPRECATED
 #define BOOST_TEST_MODULE Waterfallplot_Test
 
 #include "srsgui/srsgui++.h"
 
 #include <boost/scoped_ptr.hpp>
 #include <boost/thread/thread.hpp>
-#include <boost/progress.hpp>
+#include <boost/timer/timer.hpp>
+#include <boost/timer/progress_display.hpp>
 #include <boost/bind.hpp>
 #include <cstdlib>
 #include <vector>
