@@ -1,1 +1,0 @@
-/usr/bin/cc -rdynamic CMakeFiles/realplot_test_c.dir/realplot_test.c.o -o realplot_test_c  -Wl,-rpath,/home/kali/tools/srsGUI/build/src ../../src/libsrsgui.so -lm -lpthread /usr/lib/aarch64-linux-gnu/libQt5Widgets.so.5.15.10 /usr/lib/aarch64-linux-gnu/libQt5Gui.so.5.15.10 /usr/lib/aarch64-linux-gnu/libQt5Core.so.5.15.10 -lqwt-qt5
